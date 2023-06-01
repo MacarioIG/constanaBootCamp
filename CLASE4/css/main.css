@@ -1,0 +1,151 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #A7F2BF;
+}
+
+.container {
+    height: 100vh;
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+
+nav {
+    background-color: #28702C;
+    height: 15%;
+    padding: 3vh;
+
+
+}
+
+nav img {
+
+    width: 9vh;
+    float: left;
+    padding: 1vh;
+}
+
+
+.container__nav__olContainer {
+    height: 90%;
+    
+}
+
+.container__nav__olContainer li { 
+
+    float: left;
+    list-style: none;
+    border-radius: 1vh;
+    padding: 1vh;
+
+
+}   
+
+.container__nav__olContainer li:hover {
+
+    background-color: black;
+    color: white;
+    transition: ease-in 0.2s;
+    
+    
+
+}
+
+.container__nav__olContainer li a {
+    text-decoration: none;
+    padding: 4vh;
+    color: black;
+
+}
+
+.container__nav__olContainer li a:hover{
+
+    color: white;
+    transition: ease-in 0.2s;
+
+}
+
+main {
+    width: 70%;
+    height: 80%;
+    float: left;
+    background-color: #A0F2A4;
+
+}
+
+main section {
+    
+    padding: 30px;
+    height:  70vh;
+
+}
+
+main section h2 {
+
+    color: black;
+
+}
+
+main section p {
+
+    color: black;
+    padding: 1vh 0 1vh 0;
+    line-height: 4vh;
+}
+
+.container__aside {
+    background-color: #44BD4A;
+    height: 80%;
+    width: 30%;
+    float: left;
+}
+
+.container__aside__card h3 {
+
+
+
+}
+
+.container__aside__card p,h3 {
+
+    
+    padding: 1vh;
+
+}
+
+.container__aside__card img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vh;
+    padding: 1vh;
+
+}
+.container__aside ul li {
+
+    margin: 1vh;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: solid 1px white;
+    padding: 1vh;
+
+}
+
+footer {
+    
+    padding: 3vh;
+    background-color: #4A704C;
+    clear: both;
+    
+    
+
+}
