@@ -1,0 +1,304 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+
+}
+
+
+header {
+    height: 15vh;
+    border-bottom: black solid 1px;
+    background-color: #4CAF50;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.container__logo {
+    float:left;
+    height: 13vh;
+    width: 13vh;
+    margin: 1vh 0 1vh 2vh;
+    box-sizing: content-box;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+.container__logo img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    height: 8vh;
+    width: 8vh;
+    display: block;
+
+}
+
+.container__logo p {
+    font-weight: 700;
+    font-size: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5vh;
+
+    width: 8vh;
+    
+
+}
+
+.container__navItems {
+    margin-top: 3vh;
+    margin-left: 5vh;
+    float: left;
+
+}
+
+.container__navItems li {
+    display: inline-block;
+    list-style: none;
+    padding: 1vh;
+    font-size: 4vh;
+}
+
+.container__navItems li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    transition: border-bottom 10s ease-in-out 0.05s;
+
+}
+
+section {
+
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+.container__secondMenu {
+    height: 80vh;
+    background-color: white;
+    float: left;
+    width: 20%;
+    border-right:  black solid 1px;
+    box-sizing: border-box;
+
+}   
+
+.container__secondMenu h3 {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 5vh;
+    color: black;
+
+}
+
+.container__secondMenu__category{
+    padding: 2vh;
+    height: 5vh;
+    
+
+}
+
+
+
+.container__secondMenu__category p a{
+
+    font-size: 4vh;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.container__secondMenu__category p a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease;
+  }
+
+.container__secondMenu__category p a:hover::before {
+
+    width: 100%;
+
+}
+
+.container__secondMenu__category img {
+    margin-right: 1vh;
+    height: 5vh;
+    float: left;
+
+}
+
+aside {
+    width: 80%;
+    float: left;
+    height: 80vh;
+    overflow-y: scroll;
+
+}
+
+.container__titleContainer {
+    height: 8vh;
+    padding: 2vh;
+    color: black;
+    caret-color: transparent;
+
+}
+
+.container__titleContainer img {
+    float: left;
+    height: 8vh;
+
+}
+
+.container__titleContainer h4 {
+    color: black;
+    font-size: 5vh;
+    height: 8vh;
+    text-align: center;
+    float: left;
+    margin-top: 1vh;
+
+}
+
+.container__cardContainer {
+    height: 70vh;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container__cardContainer__card{
+    border: 1px solid black;
+    width: 30% ;
+    height: 60vh;
+    float: left;
+    margin: 1vh;
+    position: relative;
+    box-shadow: 0 7px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container__cardContainer__card p {
+
+    padding: 1vh;
+
+}
+
+.container__cardContainer__card__button {
+  appearance: none; 
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px;
+  cursor: pointer; 
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-family: 'Raleway', sans-serif;
+  
+
+}
+
+.container__cardContainer__card__button:hover{
+
+    color:  #e0e0d1;
+    transition: 0.25s ease;
+    background-color: black; 
+
+}
+
+.container__cardContainer__card div{
+    background-size: cover ;
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+    border: sold 1px red;
+
+}
+
+.container__cardContainer__card__img--1 {
+
+    background-image: url('../images/pizza1.jpg');
+
+}
+
+.container__cardContainer__card__img--2 {
+
+    background-image: url('../images/pizza2.jpg');
+
+}
+.container__cardContainer__card__img--3 {
+
+    background-image: url('../images/pizza3.jpg');
+
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+    clear: both;
+
+}
+
+footer div {
+    width: 100%;
+    float: left;
+    margin-top: 3vh;
+}
+
+footer div div {
+    margin: 0;
+    width: 65%;
+
+}
+
+footer div div img {
+    height: 4vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+
+}
+
+footer div div p {
+    display: inline-block;
+    color: white;
+    height: 4vh;
+    border-right: solid 2px white;
+    text-align: center;
+    width: 30vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3vh;
+}
+
+footer div  p {
+    float: left;
+    color: grey;
+    margin-right: auto;
+    width: 35%;
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+
+
